@@ -1,7 +1,4 @@
-/**
- * @param {Function[]} functions
- * @return {Function}
- */
+//Function Composition
 var compose = function(functions) {
     // Edge case: empty array returns identity function
     if (functions.length === 0) {
@@ -19,7 +16,3 @@ var compose = function(functions) {
     };
 };
 
-/**
- * const fn = compose([x => x + 1, x => x * x, x => 2 * x]);
- * console.log(fn(4)); // 65
- */
