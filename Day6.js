@@ -1,8 +1,4 @@
-/**
- * @param {number[]} arr
- * @param {Function} fn
- * @return {number[]}
- */
+//Filter elements from array
 var filter = function(arr, fn) {
     const filteredArr = [];
     
