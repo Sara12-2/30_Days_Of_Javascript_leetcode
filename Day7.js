@@ -1,9 +1,4 @@
-/**
- * @param {number[]} nums
- * @param {Function} fn
- * @param {number} init
- * @return {number}
- */
+//Array Reduce Transformation
 var reduce = function(nums, fn, init) {
 
     // Start with the initial value
