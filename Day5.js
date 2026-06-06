@@ -1,3 +1,4 @@
+//Apply transform over each element of Array
 var map = function(arr, fn) {
     let result = [];
 
